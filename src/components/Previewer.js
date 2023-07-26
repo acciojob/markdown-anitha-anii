@@ -21,7 +21,7 @@ const Previewer = ({ markdown }) => {
   }, [markdown]);
 
   return (
-    <h1
+    <div
       className="preview"
       dangerouslySetInnerHTML={{ __html: html }}
     />
