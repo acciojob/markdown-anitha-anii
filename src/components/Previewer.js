@@ -22,7 +22,7 @@ const Previewer = ({ markdown }) => {
 
   return (
     <div
-      className="previewer"
+      className="preview"
       dangerouslySetInnerHTML={{ __html: html }}
     />
   );
