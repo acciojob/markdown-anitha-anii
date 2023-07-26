@@ -4,7 +4,7 @@ import Previewer from "./components/Previewer";
 import "./styles/App.css";
 
 const App = () => {
-  const [markdown, setMarkdown] = useState(`Heading`);
+  const [markdown, setMarkdown] = useState('Heading');
 
   return (
     <div className="app">
